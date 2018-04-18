@@ -1,1 +1,1 @@
-一款小说阅读器
+an Android Novel App
