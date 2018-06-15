@@ -1,1 +1,1 @@
-an Android Novel App
+an Android Novel App(update xml)
