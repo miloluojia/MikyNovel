@@ -38,16 +38,18 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <com.monke.monkeybook.widget.refreshview.RefreshScrollView
             android:id="@+id/rscv_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <include layout="@layout/view_kind" />
+                <include layout="@layout/view_kind"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -67,6 +69,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="25dp"
                         android:transitionName="to_search">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -74,27 +77,29 @@
                             android:gravity="center"
                             android:hint="搜书名、作者"
                             android:textColorHint="#6f6f6f"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"/>
 
                         <ImageView
                             android:layout_width="13dp"
                             android:layout_height="13dp"
                             android:layout_gravity="center_vertical|left"
                             android:layout_marginLeft="10dp"
-                            android:src="@drawable/icon_search_nor" />
+                            android:src="@drawable/icon_search_nor"/>
                     </FrameLayout>
                 </FrameLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"/>
+
                 <com.monke.monkeybook.widget.libraryview.LibraryKindBookListView
                     android:id="@+id/lkbv_kindbooklist"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="1dp"
-                    android:paddingBottom="10dp"
-                    android:background="#ffffff"/>
+                    android:background="#ffffff"
+                    android:paddingBottom="10dp"/>
+
                 <com.monke.monkeybook.widget.libraryview.LibraryNewBooksView
                     android:id="@+id/lav_hotauthor"
                     android:layout_width="match_parent"

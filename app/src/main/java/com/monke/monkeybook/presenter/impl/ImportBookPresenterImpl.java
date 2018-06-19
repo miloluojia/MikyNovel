@@ -1,18 +1,19 @@
-//Copyright (c) 2017. 章钦豪. All rights reserved.
 package com.monke.monkeybook.presenter.impl;
 
 import android.os.Environment;
+
 import com.hwangjr.rxbus.RxBus;
 import com.monke.basemvplib.impl.BasePresenterImpl;
 import com.monke.monkeybook.base.observer.SimpleObserver;
-import com.monke.monkeybook.bean.BookShelfBean;
 import com.monke.monkeybook.bean.LocBookShelfBean;
 import com.monke.monkeybook.common.RxBusTag;
 import com.monke.monkeybook.model.impl.ImportBookModelImpl;
 import com.monke.monkeybook.presenter.IImportBookPresenter;
 import com.monke.monkeybook.view.IImportBookView;
+
 import java.io.File;
 import java.util.List;
+
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;

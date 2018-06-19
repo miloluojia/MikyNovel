@@ -58,7 +58,7 @@
                     android:scaleType="fitXY"
                     android:theme="@android:style/Theme.Translucent"
                     android:alpha="0"
-                    android:src="@drawable/icon_monkovel_big_white"/>
+                    android:src="@drawable/bg_shadow"/>
             </FrameLayout>
 
             <TextView

@@ -88,25 +88,14 @@ public class MainActivity extends MBaseActivity<IMainPresenter> implements IMain
                 downloadListPop.showAsDropDown(ibDownload);
             }
         });
-        ibMoney.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //点击打赏
-            }
-        });
+
         ibLibrary.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivityByAnim(new Intent(MainActivity.this, LibraryActivity.class), 0, 0);
             }
         });
-        ibAdd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //点击更多
-//                startActivityByAnim(new Intent(MainActivity.this, ImportBookActivity.class), 0, 0);
-            }
-        });
+
         bookShelfAdapter.setItemClickListener(new BookShelfAdapter.OnItemClickListener() {
             @Override
             public void toSearch() {

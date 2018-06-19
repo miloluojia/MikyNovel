@@ -1,4 +1,3 @@
-//Copyright (c) 2017. 章钦豪. All rights reserved.
 package com.monke.monkeybook.view;
 
 import com.monke.basemvplib.IView;
